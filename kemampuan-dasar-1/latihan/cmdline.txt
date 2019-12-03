@@ -1,0 +1,770 @@
+Pertemuan 1 (02/11/2019): 
+1.cd\ 		--> beralih antar Direktori
+2.netstat	--> menampilkn statistik koneksi jaringan dari dan ke komputer yang sedang kita pakai
+3.dir 		--> Melihat Isi Direktori
+4.mkdir		--> Membuat Direktory/folder Baru
+5.ren		--> Mengganti Nama File dan Folder 
+6.Copy 		--> Menyalin File 
+7.xCopy		--> Menyalin File Beserta isinya
+8.del 		--> Menghapus File 
+9.rd		--> Menghapus Folder
+10.help		--> Menampilkan Menu Bantuan
+11.assoc	--> menampilkan dan mengubah asosiasi nama ekstensi file.
+12.attrib	--> menampilkan, mengatur, aau menghapus atribut dll..
+13.chkdsk	--> memeriksa dan menampilkan laporan status beserta file system
+14.netcfg	--> Menginstall windows Enverolment
+15.date		--> Menampilkan tanggal.
+16.arp 		--> Menampilkan adress
+17.hostname	--> Menampilkan namahost
+18.ipconfig	--> menampilkan alamat ip
+19.ping		--> digunakan untuk mengecek jaringan
+20.time		--> menampilkan waktu sekarang
+
+Praktek Perintah:
+
+1. E:\>cd E:\kursus\Proxy academy
+
+2. E:\>netstat -e -s
+Interface Statistics
+
+                           Received            Sent
+
+Bytes                     522842958        56948850
+Unicast packets              332658          292338
+Non-unicast packets           34992           10062
+Discards                          0               0
+Errors                            0               0
+Unknown protocols                 0
+
+IPv4 Statistics
+
+  Packets Received                   = 15789364
+  Received Header Errors             = 0
+  Received Address Errors            = 886
+  Datagrams Forwarded                = 327279
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 203390
+  Received Packets Delivered         = 15510239
+  Output Requests                    = 10345287
+  Routing Discards                   = 0
+  Discarded Output Packets           = 4888
+  Output Packet No Route             = 765
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 5
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 10
+
+IPv6 Statistics
+
+  Packets Received                   = 310013
+  Received Header Errors             = 0
+  Received Address Errors            = 1029
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 12327
+  Received Packets Delivered         = 331006
+  Output Requests                    = 215840
+  Routing Discards                   = 0
+  Discarded Output Packets           = 148
+  Output Packet No Route             = 107
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  1615        3355
+  Errors                    0           0
+  Destination Unreachable   1530        2501
+  Time Exceeded             27          0
+  Parameter Problems        0           0
+  Source Quenches           0           0
+  Redirects                 0           0
+  Echo Replies              13          0
+  Echos                     45          854
+  Timestamps                0           0
+  Timestamp Replies         0           0
+  Address Masks             0           0
+  Address Mask Replies      0           0
+  Router Solicitations      0           0
+  Router Advertisements     0           0
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  6415        1448
+  Errors                    0           0
+  Destination Unreachable   7           133
+  Packet Too Big            0           0
+  Time Exceeded             0           0
+  Parameter Problems        0           0
+  Echos                     0           0
+  Echo Replies              0           0
+  MLD Queries               0           0
+  MLD Reports               0           0
+  MLD Dones                 0           0
+  Router Solicitations      0           347
+  Router Advertisements     5957        0
+  Neighbor Solicitations    185         555
+  Neighbor Advertisements   266         413
+  Redirects                 0           0
+  Router Renumberings       0           0
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 74415
+  Passive Opens                       = 4484
+  Failed Connection Attempts          = 8760
+  Reset Connections                   = 9772
+  Current Connections                 = 36
+  Segments Received                   = 8092045
+  Segments Sent                       = 7107691
+  Segments Retransmitted              = 50998
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 7176
+  Passive Opens                       = 71
+  Failed Connection Attempts          = 5185
+  Reset Connections                   = 420
+  Current Connections                 = 0
+  Segments Received                   = 161455
+  Segments Sent                       = 119142
+  Segments Retransmitted              = 4380
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 7633935
+  No Ports              = 32432
+  Receive Errors        = 6661
+  Datagrams Sent        = 3371163
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 207172
+  No Ports              = 11650
+  Receive Errors        = 641
+  Datagrams Sent        = 108818
+
+3. 	E:\kursus>dir
+   	Volume in drive E has no label.
+   	Volume Serial Number is 5442-7A5B
+
+ 	Directory of E:\kursus
+
+	12/02/2019  02:26 PM    <DIR>          .
+	12/02/2019  02:26 PM    <DIR>          ..
+	12/02/2019  02:26 PM    <DIR>          Proxy academy
+               0 File(s)              0 bytes
+               3 Dir(s)  368,859,967,488 bytes free
+
+4. 	E:\kursus\Proxy academy>mkdir pertemuan 1
+    	Directory of E:\kursus\Proxy academy
+
+	12/02/2019  02:32 PM    <DIR>          .
+	12/02/2019  02:32 PM    <DIR>          ..
+	12/02/2019  02:32 PM    <DIR>          1
+	12/02/2019  02:32 PM    <DIR>          pertemuan
+               0 File(s)              0 bytes
+               4 Dir(s)  368,859,967,488 bytes free
+
+5. 	E:\kursus\Proxy academy>ren pertemuan 4 
+   
+ 	Directory of E:\kursus\Proxy academy
+
+	12/02/2019  02:35 PM    <DIR>          .
+	12/02/2019  02:35 PM    <DIR>          ..
+	12/02/2019  02:32 PM    <DIR>          1
+	12/02/2019  02:34 PM    <DIR>          2
+	12/02/2019  02:34 PM    <DIR>          3
+	12/02/2019  02:32 PM    <DIR>          4
+               0 File(s)              0 bytes
+               6 Dir(s)  368,859,967,488 bytes free
+   
+6. 	E:\kursus\Proxy academy>copy 1
+	1\catatan 1.txt
+        1 file(s) copied.
+
+7. 	E:\>xcopy /s /i e:\Cmd_Prmpt f:\Backup_Cmd_Prmpt
+	Invalid drive specification
+	0 File(s) copied
+
+	E:\>xcopy /s /i D:\a E:\tugas_1
+	D:\a\18917218.docx
+	D:\a\18917218.rar
+	D:\a\data_gedung.csv
+	D:\a\18917218\18917218.docx
+	D:\a\18917218\18917218.R
+	D:\a\18917218\data_gedung.csv
+	6 File(s) copied
+
+8. 	E:\tugas_1>del 18917218
+   	E:\tugas_1\18917218\*, Are you sure (Y/N)? Y
+   	E:\tugas_1>dir
+
+9. 	E:\tugas_1>rd 18917218
+   	E:\tugas_1>dir
+   	Volume in drive E has no label.
+   	Volume Serial Number is 5442-7A5B
+   	Directory of E:\tugas_1
+   	12/02/2019  02:43 PM    <DIR>          .
+   	12/02/2019  02:43 PM    <DIR>          ..
+   	12/02/2019  01:46 PM                 1 tugas1.txt
+               1 File(s)              1 bytes
+               2 Dir(s)  368,859,959,296 bytes free 
+
+10. 	E:\>help mkdir
+	Creates a directory.
+	MKDIR [drive:]path
+	MD [drive:]path
+
+	If Command Extensions are enabled MKDIR changes as follows:
+
+	MKDIR creates any intermediate directories in the path, if needed.
+	For example, assume \a does not exist then:
+
+	    mkdir \a\b\c\d
+
+	is the same as:
+
+	    mkdir \a
+	    chdir \a
+	    mkdir b
+	    chdir b
+	    mkdir c
+	    chdir c
+	    mkdir d
+
+	which is what you would have to type if extensions were disabled.
+
+	For more information on tools see the command-line reference in the online help.
+   
+11. 	 E:\tugas_1>assoc .txt
+     	.txt=txtfile
+
+12.  	E:\>attrib winedata.csv
+	A    	E:\winedata.csv
+
+13.  	C:\Users\User>chkdsk E:
+    	 Access Denied as you do not have sufficient privileges or
+    	 the disk may be locked by another process.
+    	 You have to invoke this utility running in elevated mode
+    	 and make sure the disk is unlocked.
+
+
+14. 	E:\>netstat -e -s
+	Interface Statistics
+
+   	                        Received            Sent
+
+	Bytes                     522842958        56948850
+	Unicast packets              332658          292338
+	Non-unicast packets           34992           10062
+	Discards                          0               0
+	Errors                            0               0
+	Unknown protocols                 0
+
+	IPv4 Statistics
+
+  Packets Received                   = 15789364
+  Received Header Errors             = 0
+  Received Address Errors            = 886
+  Datagrams Forwarded                = 327279
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 203390
+  Received Packets Delivered         = 15510239
+  Output Requests                    = 10345287
+  Routing Discards                   = 0
+  Discarded Output Packets           = 4888
+  Output Packet No Route             = 765
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 5
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 10
+
+IPv6 Statistics
+
+  Packets Received                   = 310013
+  Received Header Errors             = 0
+  Received Address Errors            = 1029
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 12327
+  Received Packets Delivered         = 331006
+  Output Requests                    = 215840
+  Routing Discards                   = 0
+  Discarded Output Packets           = 148
+  Output Packet No Route             = 107
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  1615        3355
+  Errors                    0           0
+  Destination Unreachable   1530        2501
+  Time Exceeded             27          0
+  Parameter Problems        0           0
+  Source Quenches           0           0
+  Redirects                 0           0
+  Echo Replies              13          0
+  Echos                     45          854
+  Timestamps                0           0
+  Timestamp Replies         0           0
+  Address Masks             0           0
+  Address Mask Replies      0           0
+  Router Solicitations      0           0
+  Router Advertisements     0           0
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  6415        1448
+  Errors                    0           0
+  Destination Unreachable   7           133
+  Packet Too Big            0           0
+  Time Exceeded             0           0
+  Parameter Problems        0           0
+  Echos                     0           0
+  Echo Replies              0           0
+  MLD Queries               0           0
+  MLD Reports               0           0
+  MLD Dones                 0           0
+  Router Solicitations      0           347
+  Router Advertisements     5957        0
+  Neighbor Solicitations    185         555
+  Neighbor Advertisements   266         413
+  Redirects                 0           0
+  Router Renumberings       0           0
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 74415
+  Passive Opens                       = 4484
+  Failed Connection Attempts          = 8760
+  Reset Connections                   = 9772
+  Current Connections                 = 36
+  Segments Received                   = 8092045
+  Segments Sent                       = 7107691
+  Segments Retransmitted              = 50998
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 7176
+  Passive Opens                       = 71
+  Failed Connection Attempts          = 5185
+  Reset Connections                   = 420
+  Current Connections                 = 0
+  Segments Received                   = 161455
+  Segments Sent                       = 119142
+  Segments Retransmitted              = 4380
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 7633935
+  No Ports              = 32432
+  Receive Errors        = 6661
+  Datagrams Sent        = 3371163
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 207172
+  No Ports              = 11650
+  Receive Errors        = 641
+  Datagrams Sent        = 108818
+
+E:\>help mkdir
+Creates a directory.
+
+MKDIR [drive:]path
+MD [drive:]path
+
+If Command Extensions are enabled MKDIR changes as follows:
+
+MKDIR creates any intermediate directories in the path, if needed.
+For example, assume \a does not exist then:
+
+    mkdir \a\b\c\d
+
+is the same as:
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+which is what you would have to type if extensions were disabled.
+
+E:\>md Directory1
+
+E:\>dir
+ Volume in drive E has no label.
+ Volume Serial Number is 5442-7A5B
+
+ Directory of E:\
+
+10/24/2019  02:46 PM    <DIR>          android_pertama
+08/31/2019  01:49 PM    <DIR>          aplikasikedua
+09/23/2019  04:49 PM    <DIR>          aplikasiketiga
+07/16/2019  03:48 PM           310,345 Apply — Twitter Developers.html
+07/16/2019  03:48 PM    <DIR>          Apply — Twitter Developers_files
+12/02/2019  01:02 PM             8,746 assoc.txt
+10/03/2019  01:55 PM    <DIR>          Belajar html
+07/16/2019  03:25 PM             7,732 crawling.py
+12/02/2019  03:45 PM    <DIR>          Directory1
+10/25/2019  06:12 PM    <DIR>          Food
+07/16/2019  03:10 PM         1,709,825 get-pip.py
+12/02/2019  02:26 PM    <DIR>          kursus
+08/28/2019  10:33 AM    <DIR>          Kursus android pemula
+10/23/2019  06:12 AM         4,564,991 LABELMADU.cdr
+12/02/2019  11:34 AM    <DIR>          Latihan
+12/02/2019  01:50 PM                 0 marged.tx
+12/02/2019  01:50 PM                 0 marged.txt
+11/01/2019  01:36 PM             1,788 mtcars.csv
+09/01/2019  02:37 PM    <DIR>          MyintentApp
+10/15/2019  08:34 PM    <DIR>          MyRecyclerView
+11/03/2019  02:54 PM         2,903,115 notebook.log
+11/14/2019  03:05 PM    <DIR>          Project mas agus
+12/02/2019  03:30 PM    <DIR>          tugas_1
+12/02/2019  01:40 PM    <DIR>          tugas_2
+07/16/2019  03:32 PM    <DIR>          twitter_search
+10/31/2019  10:39 AM            10,782 winedata.csv
+              10 File(s)      9,517,324 bytes
+              16 Dir(s)  368,859,959,296 bytes free
+
+E:\>netcfg /c s /i MS_Server
+Trying to install MS_Server ...
+
+... failed. Error code: 0x80070005.
+
+
+E:\>netcfg [/v] [/e] [/winpe] [/l ] /c /i
+
+E:\>netcfg /b ms_tcpip
+Binding paths starting with 'ms_tcpip'
+
+ms_tcpip
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_tcpip
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_tcpip
+ -> bth\ms_bthpan
+
+
+ms_tcpip
+ -> root\kdnic
+
+
+ms_tcpip
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+Binding paths ending with 'ms_tcpip'
+
+ms_tcpip
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_server
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_tcpip
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_server
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_server
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_msclient
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_tcpip
+ -> bth\ms_bthpan
+
+
+ms_netbt
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_tcpip
+ -> root\kdnic
+
+
+ms_tcpip
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_msclient
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_netbios
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_netbios
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_server
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_netbios
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_server
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_netbt
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_msclient
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_server
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_msclient
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_netbt
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_server
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_msclient
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_netbios
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_netbt
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_msclient
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_server
+ -> ms_tcpip
+
+ -> root\kdnic
+
+
+ms_msclient
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_server
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_netbt
+ -> ms_tcpip
+
+ -> bth\ms_bthpan
+
+
+ms_msclient
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_msclient
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_msclient
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086
+
+
+ms_netbios
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> {5d624f94-8850-40c3-a3fa-a4fd2080baf3}\vwifimp_wfd
+
+
+ms_server
+ -> ms_netbt
+
+ -> ms_tcpip
+
+ -> pci\ven_8086&dev_3166&subsys_42108086 	
+
+15.     C:\Users\User>date
+	The current date is: Mon 12/02/2019
+	Enter the new date: (mm-dd-yy)
+
+16.	C:\Users\User>arp /a
+
+	Interface: 192.168.1.9 --- 0x9
+	  Internet Address      Physical Address      Type
+	  192.168.1.1           34-da-b7-e4-35-d0     dynamic
+	  192.168.1.255         ff-ff-ff-ff-ff-ff     static
+	  224.0.0.22            01-00-5e-00-00-16     static
+	  224.0.0.251           01-00-5e-00-00-fb     static
+	  224.0.0.252           01-00-5e-00-00-fc     static
+	  239.255.255.250       01-00-5e-7f-ff-fa     static
+	  255.255.255.255       ff-ff-ff-ff-ff-ff     static	
+
+17. 	C:\Users\User>hostname
+    	WINDOWS-31LK7NP
+
+18. 	C:\Users\User>ipconfig
+
+	Windows IP Configuration
+
+
+	Wireless LAN adapter Local Area Connection* 1:
+
+	   Media State . . . . . . . . . . . : Media disconnected
+	   Connection-specific DNS Suffix  . :
+
+	Wireless LAN adapter Local Area Connection* 2:
+
+	   Media State . . . . . . . . . . . : Media disconnected
+	   Connection-specific DNS Suffix  . :
+
+	Wireless LAN adapter Wi-Fi:
+
+	   Connection-specific DNS Suffix  . :
+	   Link-local IPv6 Address . . . . . : fe80::bd6f:35fc:cf1:785d%9
+	   IPv4 Address. . . . . . . . . . . : 192.168.1.9
+	   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   	Default Gateway . . . . . . . . . : fe80::1%9
+                                       192.168.1.1
+
+19.	C:\Users\User>ping -n 5 -l 1500 www.google.com
+
+	Pinging www.google.com [172.217.160.4] with 1500 bytes of data:
+	Request timed out.
+	Request timed out.
+	Request timed out.
+	Request timed out.
+	Request timed out.
+
+	Ping statistics for 172.217.160.4:
+    	Packets: Sent = 5, Received = 0, Lost = 5 (100% loss),
+
+
+20. 	C:\Users\User>time
+	The current time is: 15:37:56.06
