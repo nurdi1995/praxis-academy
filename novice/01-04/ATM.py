@@ -12,7 +12,7 @@ print()
 
 while True:
     try:
-        Saldo=897.32
+        Saldo=50000
         Option=int(input("What would you like to do ? "))
     except ValueError:
         print("Input salah, transaksi tidak dapat dilakukan!")
