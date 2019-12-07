@@ -11,7 +11,7 @@ Get-LastBootTime -ComputerName localhost
 www.howtogeek.com
 #>
 param(
-[string]$ComputerName
+[Parameter(Mandatory=$true)][string]$ComputerName
 )
 
 Get-WmiObject -Class Win32_OperatingSystem –ComputerName localhost |
